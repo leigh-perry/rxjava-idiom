@@ -1,0 +1,15 @@
+apply plugin: 'java'
+
+sourceCompatibility = '1.8'
+targetCompatibility = '1.8'   // defaults to sourceCompatibility
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile 'io.reactivex:rxjava:+'
+
+    testCompile 'junit:junit:+'
+}
+
